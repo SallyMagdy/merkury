@@ -1,0 +1,236 @@
+/* Responsive styles
+================================================== */
+/* Large Devices, Wide Screens */
+@media (min-width: 2000px) {
+  .home{
+    min-height:900px;
+  }
+  .headerImgCont{
+    left:30%;
+  }
+}
+@media (max-width: 1024px) {
+ .home{
+   min-height:624px;
+ }
+  .progressTasks .task:nth-of-type(3) {
+    width: 190px;
+  }
+  @keyframes drag {
+    0%{
+      bottom: 3px;
+      right: 15px;
+    }
+    50%{
+      bottom:-5px;
+      right:-5px;
+    }
+    100%{
+      bottom: 6px;
+      right: -205px;
+    }
+  }
+  .info {
+    top: -6px;
+  }
+  .info:before {
+    right: -180px;
+  }
+  .info h4:after {
+    width: 378px;
+  }
+  .info:after {
+    right: -185px;
+  }
+  .info:last-of-type {
+    top: 215px;
+  }
+  .info:last-of-type h4:after {
+    left: -173px;
+  }
+  .info:last-of-type:after, .info:last-of-type:before {
+    right: 370px;
+  }
+  .info:last-of-type:after {
+    right: 365px;
+  }
+}
+
+@media (min-width:1199px){
+
+}
+
+@media (max-width: 991px) {
+
+}
+@media (max-width: 768px){
+  .home {
+    min-height: 480px;
+  }
+  .browser .leftArea {
+    width: 80%;
+  }
+  .feature {
+    text-align: center;
+    padding: 0 30px;
+  }
+  .feature:not(:first-of-type):after {
+    width: 100px;
+    left: -55px;
+  }
+  .progressTasks .task:nth-of-type(3) {
+    width: 140px;
+  }
+  @keyframes drag {
+    0%{
+      bottom: 3px;
+      right: 15px;
+    }
+    50%{
+      bottom:-5px;
+      right:-5px;
+    }
+    100%{
+      bottom: 6px;
+      right: -155px;
+    }
+  }
+  .animateImg{
+    overflow: hidden;
+  }
+  .info,.info:last-of-type{
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+  .info:before,.info:after,.info h4:after{
+    display: none;
+  }
+}
+@media (max-width: 766px){
+  .feature {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 425px){
+  .navbar-right {
+    margin-right: 0;
+    background: rgba(6, 19, 50, 0.95);
+    margin-top: 2px;
+    text-align: center;
+  }
+  .navbar-nav>li {
+    float: none;
+    margin-left: 5px;
+    padding: 10px 30px;
+    border: 1px solid;
+    border-top: none;
+  }
+  .navbar-nav>li:first-of-type{
+    border-top:1px solid;
+  }
+
+  .nav>li>a:focus, .nav>li>a:hover, .nav>li>a.btn-primary {
+    color: white;
+    border: none;
+  }
+  section {
+    padding: 80px 0;
+  }
+  .home {
+    margin-bottom: 0;
+  }
+  .browser .rightArea {
+    bottom: -55px;
+  }
+  .headerImgCont {
+    margin-top: 25px;
+     position: relative;
+     width: auto;
+    left:0;
+  }
+  .browser .rightArea,.browser .leftArea{
+    width:100%;
+    position: relative;
+  }
+  .feature {
+    margin-bottom:30px;
+  }
+  .feature:not(:first-of-type):after, .pricing .btnContainer:before, .pricing .btnContainer:after{
+    display: none;
+  }
+  .progressTasks .task:nth-of-type(3) {
+    width: 152px;
+  }
+  @keyframes drag {
+    0%{
+      bottom: 3px;
+      right: 15px;
+    }
+    50%{
+      bottom:-5px;
+      right:-5px;
+    }
+    100%{
+      bottom: 6px;
+      right: -168px;
+    }
+  }
+  .secText p {
+    width: 80%;
+  }
+  footer{
+    text-align: center;
+  }
+  footer div.pull-right,footer div.pull-left{
+    float:inherit !important;
+  }
+  footer div.pull-left{
+    position: relative;
+    bottom: -15px;
+  }
+}
+@media (max-width: 375px){
+  .progressTasks .task:nth-of-type(3) {
+    width: 130px;
+  }
+  @keyframes drag {
+    0%{
+      bottom: 3px;
+      right: 15px;
+    }
+    50%{
+      bottom:-5px;
+      right:-5px;
+    }
+    100%{
+      bottom: 6px;
+      right: -145px;
+    }
+  }
+}
+@media (max-width: 320px){
+  .progressTasks .task:nth-of-type(3) {
+    width: 100px;
+  }
+  @keyframes drag {
+    0%{
+      bottom: -10px;
+      right: 10px;
+    }
+    50%{
+      bottom:-15px;
+      right:-5px;
+    }
+    100%{
+      bottom: -11px;
+      right: -115px;
+    }
+  }
+  .priceTag{
+    width:auto;
+  }
+}
